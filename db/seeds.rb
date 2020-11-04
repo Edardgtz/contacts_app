@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+# i = 0
+# while i < 101
+#   contact = Contact.new(first_name: Faker::Name.male_first_name, last_name: Faker::Name.last_name, email: Faker::Internet.free_email, phone_number: Faker::PhoneNumber.phone_number)
+#   p contact
+#   contact.save
+#   i += 1
+# end
+  p Contact.all
